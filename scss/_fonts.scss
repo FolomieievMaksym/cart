@@ -1,0 +1,88 @@
+@font-face {
+	font-family: 'DotGothic16';
+	font-display: swap;
+	src: local('DotGothic16 Regular'), local('DotGothic16-Regular'),
+		url('../fonts/DotGothic16-Regular.woff2') format('woff2'),
+		url('../fonts/DotGothic16-Regular.woff') format('woff'),
+		url('../fonts/DotGothic16-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+ }
+
+@font-face {
+	font-family: 'Gilroy';
+	font-display: swap;
+	src: local('Gilroy Regular'), local('Gilroy-Regular'),
+		url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+		url('../fonts/Gilroy-Regular.woff') format('woff'),
+		url('../fonts/Gilroy-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+ }
+
+@font-face {
+	font-family: 'Gilroy';
+	font-display: swap;
+	src: local('Gilroy Medium'), local('Gilroy-Medium'),
+		url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+		url('../fonts/Gilroy-Medium.woff') format('woff'),
+		url('../fonts/Gilroy-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+ }
+
+@font-face {
+	font-family: 'Gilroy';
+	font-display: swap;
+	src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+		url('../fonts/Gilroy-Semibold.woff2') format('woff2'),
+		url('../fonts/Gilroy-Semibold.woff') format('woff'),
+		url('../fonts/Gilroy-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+// Подключение локальных шрифтов
+@font-face {
+	font-family: 'PT Sans';
+	font-display: swap;
+	src: url("../fonts/PTSans-Bold.ttf");
+	src: local("O"), url("../fonts/PTSans-Bold.woff") format("woff"), 
+			url("../fonts/PTSans-Bold.ttf") format("truetype"), 
+			url("../fonts/PTSans-Bold.woff-2") format("woff-2");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PT Sans';
+	font-display: swap;
+	src: url("../fonts/PTSans-BoldItalic.ttf");
+	src: local("O"), url("../fonts/PTSans-BoldItalic.woff") format("woff"), 
+			url("../fonts/PTSans-BoldItalic.ttf") format("truetype"), 
+			url("../fonts/PTSans-BoldItalic.woff-2") format("woff-2");
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'PT Sans';
+	font-display: swap;
+	src: url("../fonts/PTSans-Italic.ttf");
+	src: local("O"), url("../fonts/PTSans-Italic.woff") format("woff"), 
+			url("../fonts/PTSans-Italic.ttf") format("truetype"), 
+			url("../fonts/PTSans-Italic.woff-2") format("woff-2");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'PT Sans';
+	font-display: swap;
+	src: url("../fonts/PTSans-Regular.ttf");
+	src: local("O"), url("../fonts/PTSans-Regular.woff") format("woff"), 
+			url("../fonts/PTSans-Regular.ttf") format("truetype"), 
+			url("../fonts/PTSans-Regular.woff-2") format("woff-2");
+	font-weight: 400;
+	font-style: normal;
+}

@@ -1,0 +1,29 @@
+@import "_null";
+@import "_fonts";
+@import "_variables";
+@import "_mixins";
+@import "_patterns";
+
+// 	Калькулятор
+// 	width: 800px / 900px * 100%;
+html, body {
+	min-height: 100vh;
+}
+.wrapper {
+	min-height: 100vh;
+	background-color: $bgmain;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: #fff;
+	overflow: hidden;
+}
+
+@import "_header";
+@import "_main";
+@import "_footer";
+
+
+@import "_media";
+
+
